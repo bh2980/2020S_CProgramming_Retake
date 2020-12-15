@@ -1,4 +1,5 @@
 #include <stdio.h>
+//¾È³ç
 
 double TAX(int);
 
