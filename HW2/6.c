@@ -5,10 +5,10 @@ double g_m(double weight);
 int main(void){
 	double weight;
 
-	printf("¸ö¹«°Ô :        kg\b\b\b\b\b\b\b\b\b");
+	printf("ëª¸ë¬´ê²Œ :        kg\b\b\b\b\b\b\b\b\b");
 	scanf("%lf", &weight);
 
-	printf("´Ş¿¡¼­ÀÇ ¸ö¹«°Ô : %.2lf  kg\n", g_m(weight));
+	printf("ë‹¬ì—ì„œì˜ ëª¸ë¬´ê²Œ : %.2lf  kg\n", g_m(weight));
 }
 
 double g_m(double weight){
