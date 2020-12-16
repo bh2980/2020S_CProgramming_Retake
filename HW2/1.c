@@ -1,15 +1,14 @@
 #include <stdio.h>
-//¾È³ç
 
 double TAX(int);
 
 int main(void){
  int money;
 
- printf("¼Òµæ : ");
+ printf("ì†Œë“ : ");
  scanf("%d", &money);
 
- printf("\n¼¼±İ : %.2lf¿ø\n", TAX(money));
+ printf("\nì„¸ê¸ˆ : %.2lfì›\n", TAX(money));
 }
 
 double TAX(int money){
